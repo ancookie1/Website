@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Leon Kaspar · ancookie.de</title>
+  <meta name="description" content="Leon Kaspar – IT, motorcycles and skiing. Personal site and web projects.">
+  <meta name="theme-color" content="#0d0d0f">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%23ff7a1a'/><text x='50' y='68' font-size='56' font-family='Arial,sans-serif' font-weight='700' text-anchor='middle' fill='%230d0d0f'>A</text></svg>">
+  <link rel="stylesheet" href="css/style.css">
+  <script>document.documentElement.classList.add("js");</script>
+</head>
+<body>
+  <header class="nav" id="top">
+    <div class="container nav-inner">
+      <a href="#top" class="logo">ancookie<span>.de</span></a>
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav-links">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="nav-links" class="nav-links">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <p class="eyebrow">Hi, I'm</p>
+        <h1>Leon <span class="accent">Kaspar</span></h1>
+        <p class="tagline">
+          IT enthusiast building small web apps — and when I'm not at the keyboard,
+          you'll find me on a motorcycle or on the slopes.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">See my projects</a>
+          <a href="mailto:leon@kaspar.cc" class="btn btn-ghost">Get in touch</a>
+        </div>
+      </div>
+      <div class="hero-glow" aria-hidden="true"></div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section reveal">
+      <div class="container">
+        <h2 class="section-title"><span class="accent">#</span> About me</h2>
+        <div class="about-grid">
+          <div class="about-text">
+            <p>
+              I'm Leon — I love tinkering with technology, from servers and networks to
+              the web apps you'll find below. This site is my little corner of the internet
+              where I collect the things I build.
+            </p>
+            <p>
+              Away from the screen I'm happiest riding motorcycles on winding roads
+              or carving down a mountain on skis.
+            </p>
+          </div>
+          <ul class="interests" aria-label="Interests">
+            <li>
+              <span class="icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4"/></svg>
+              </span>
+              IT
+            </li>
+            <li>
+              <span class="icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><circle cx="5.5" cy="16.5" r="3.5"/><circle cx="18.5" cy="16.5" r="3.5"/><path d="M5.5 16.5 9 10h5l4.5 6.5M14 10l-2-4h-2M9 10l3 6.5h2"/></svg>
+              </span>
+              Motorcycles
+            </li>
+            <li>
+              <span class="icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M3 21 21 9M8 3l2 4M14 11l-2 4M17 5a2 2 0 1 0 0 .01"/><path d="M5 17l4-2"/></svg>
+              </span>
+              Skiing
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section reveal">
+      <div class="container">
+        <h2 class="section-title"><span class="accent">#</span> Projects</h2>
+        <p class="section-sub">Web apps I host on subdomains of ancookie.de.</p>
+
+        <div class="cards">
+          <!-- Replace the placeholders below with your real apps -->
+          <a class="card" href="https://app1.ancookie.de" target="_blank" rel="noopener">
+            <div class="card-top">
+              <span class="card-tag">Web App</span>
+              <span class="card-arrow" aria-hidden="true">↗</span>
+            </div>
+            <h3>Project One</h3>
+            <p>Short description of what this app does. Placeholder text for now.</p>
+            <span class="card-url">app1.ancookie.de</span>
+          </a>
+
+          <a class="card" href="https://app2.ancookie.de" target="_blank" rel="noopener">
+            <div class="card-top">
+              <span class="card-tag">Tool</span>
+              <span class="card-arrow" aria-hidden="true">↗</span>
+            </div>
+            <h3>Project Two</h3>
+            <p>Short description of what this app does. Placeholder text for now.</p>
+            <span class="card-url">app2.ancookie.de</span>
+          </a>
+
+          <a class="card" href="https://app3.ancookie.de" target="_blank" rel="noopener">
+            <div class="card-top">
+              <span class="card-tag">Experiment</span>
+              <span class="card-arrow" aria-hidden="true">↗</span>
+            </div>
+            <h3>Project Three</h3>
+            <p>Short description of what this app does. Placeholder text for now.</p>
+            <span class="card-url">app3.ancookie.de</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section reveal">
+      <div class="container contact">
+        <h2 class="section-title"><span class="accent">#</span> Contact</h2>
+        <p class="section-sub">Want to say hi? Reach out via mail or socials.</p>
+        <div class="contact-links">
+          <a class="contact-item" href="mailto:leon@kaspar.cc">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+            leon@kaspar.cc
+          </a>
+          <a class="contact-item" href="https://instagram.com/l.wieleon" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.6"/></svg>
+            @l.wieleon
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> Leon Kaspar · ancookie.de</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
