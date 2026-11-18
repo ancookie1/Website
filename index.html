@@ -3,24 +3,25 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Leon Kaspar · ancookie.de</title>
-  <meta name="description" content="Leon Kaspar – IT, motorcycles and skiing. Personal site and web projects.">
+  <title>Leon · ancookie.de</title>
+  <meta name="description" content="Leon – IT, motorcycles and skiing. Personal site with projects like a Minecraft SMP server and the V-Fusion resource pack.">
   <meta name="theme-color" content="#0d0d0f">
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%23ff7a1a'/><text x='50' y='68' font-size='56' font-family='Arial,sans-serif' font-weight='700' text-anchor='middle' fill='%230d0d0f'>A</text></svg>">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%23FACC15'/><text x='50' y='68' font-size='56' font-family='Arial,sans-serif' font-weight='700' text-anchor='middle' fill='%230d0d0f'>A</text></svg>">
+  <link rel="stylesheet" href="/css/style.css">
   <script>document.documentElement.classList.add("js");</script>
 </head>
 <body>
   <header class="nav" id="top">
     <div class="container nav-inner">
-      <a href="#top" class="logo">ancookie<span>.de</span></a>
+      <a href="/" class="logo">ancookie<span>.de</span></a>
       <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav-links">
         <span></span><span></span><span></span>
       </button>
       <nav id="nav-links" class="nav-links">
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
+        <a href="/" aria-current="page">About</a>
+        <a href="/projekte/">Projects</a>
+        <a href="/minecraft/">Minecraft</a>
+        <a href="/kontakt/">Contact</a>
       </nav>
     </div>
   </header>
@@ -30,14 +31,14 @@
     <section class="hero">
       <div class="container hero-inner">
         <p class="eyebrow">Hi, I'm</p>
-        <h1>Leon <span class="accent">Kaspar</span></h1>
+        <h1>Leon</h1>
         <p class="tagline">
           IT enthusiast building small web apps — and when I'm not at the keyboard,
           you'll find me on a motorcycle or on the slopes.
         </p>
         <div class="hero-actions">
-          <a href="#projects" class="btn btn-primary">See my projects</a>
-          <a href="mailto:leon@kaspar.cc" class="btn btn-ghost">Get in touch</a>
+          <a href="/projekte/" class="btn btn-primary">See my projects</a>
+          <a href="/kontakt/" class="btn btn-ghost">Get in touch</a>
         </div>
       </div>
       <div class="hero-glow" aria-hidden="true"></div>
@@ -51,8 +52,8 @@
           <div class="about-text">
             <p>
               I'm Leon — I love tinkering with technology, from servers and networks to
-              the web apps you'll find below. This site is my little corner of the internet
-              where I collect the things I build.
+              web apps and Minecraft projects. This site is my little corner of the internet
+              where I collect the things I build — have a look at my <a class="accent" href="/projekte/">projects</a>.
             </p>
             <p>
               Away from the screen I'm happiest riding motorcycles on winding roads
@@ -82,75 +83,6 @@
         </div>
       </div>
     </section>
-
-    <!-- Projects -->
-    <section id="projects" class="section reveal">
-      <div class="container">
-        <h2 class="section-title"><span class="accent">#</span> Projects</h2>
-        <p class="section-sub">Web apps I host on subdomains of ancookie.de.</p>
-
-        <div class="cards">
-          <a class="card" href="https://discord.gg/mPXsxnV8ZE" target="_blank" rel="noopener">
-            <div class="card-top">
-              <span class="card-tag">Minecraft Java</span>
-              <span class="card-arrow" aria-hidden="true">↗</span>
-            </div>
-            <h3>Winter of 26/27 Friend SMP</h3>
-            <p>Our Minecraft Java server for the winter season. If you want to join, join our Discord server here.</p>
-            <span class="card-url">discord.gg/mPXsxnV8ZE</span>
-          </a>
-
-          <!-- Replace the placeholders below with your real apps -->
-          <a class="card" href="https://app1.ancookie.de" target="_blank" rel="noopener">
-            <div class="card-top">
-              <span class="card-tag">Web App</span>
-              <span class="card-arrow" aria-hidden="true">↗</span>
-            </div>
-            <h3>Project One</h3>
-            <p>Short description of what this app does. Placeholder text for now.</p>
-            <span class="card-url">app1.ancookie.de</span>
-          </a>
-
-          <a class="card" href="https://app2.ancookie.de" target="_blank" rel="noopener">
-            <div class="card-top">
-              <span class="card-tag">Tool</span>
-              <span class="card-arrow" aria-hidden="true">↗</span>
-            </div>
-            <h3>Project Two</h3>
-            <p>Short description of what this app does. Placeholder text for now.</p>
-            <span class="card-url">app2.ancookie.de</span>
-          </a>
-
-          <a class="card" href="https://app3.ancookie.de" target="_blank" rel="noopener">
-            <div class="card-top">
-              <span class="card-tag">Experiment</span>
-              <span class="card-arrow" aria-hidden="true">↗</span>
-            </div>
-            <h3>Project Three</h3>
-            <p>Short description of what this app does. Placeholder text for now.</p>
-            <span class="card-url">app3.ancookie.de</span>
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <!-- Contact -->
-    <section id="contact" class="section reveal">
-      <div class="container contact">
-        <h2 class="section-title"><span class="accent">#</span> Contact</h2>
-        <p class="section-sub">Want to say hi? Reach out via mail or socials.</p>
-        <div class="contact-links">
-          <a class="contact-item" href="mailto:leon@kaspar.cc">
-            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
-            leon@kaspar.cc
-          </a>
-          <a class="contact-item" href="https://instagram.com/l.wieleon" target="_blank" rel="noopener">
-            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.6"/></svg>
-            @l.wieleon
-          </a>
-        </div>
-      </div>
-    </section>
   </main>
 
   <footer class="footer">
@@ -159,6 +91,6 @@
     </div>
   </footer>
 
-  <script src="js/main.js"></script>
+  <script src="/js/main.js"></script>
 </body>
 </html>
