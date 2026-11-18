@@ -259,8 +259,8 @@ a { color: inherit; text-decoration: none; }
   border-radius: var(--radius) var(--radius) 0 0;
   overflow: hidden;
 }
-.card-media { display: grid; place-items: center; padding: 12px; }
-.card-media img { width: 100%; height: 100%; object-fit: contain; }
+.card-media { display: flex; align-items: center; justify-content: center; padding: 12px; }
+.card-media img { display: block; width: auto; height: auto; max-width: 100%; max-height: 100%; }
 .card-media--logo { background: radial-gradient(circle at 50% 60%, var(--accent-soft), transparent 70%), var(--bg-elev); padding: 20px 24px; }
 
 /* Pixel-art screenshots stay crisp */
